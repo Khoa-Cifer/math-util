@@ -27,14 +27,18 @@ public class MatUtilDDTTest {
             {1, 1},
             {2, 2},
             {3, 6},
-            {4, 24},
+            {4, 24}, 
+            {7, 5040},
+            {8, 40320},
+            {9, 362880},
+            {10, 3628800},
             {5, 120},};
     }
     @Parameterized.Parameter(value = 0)
     public int n; //Cột 0 của mảng
     @Parameterized.Parameter(value = 1)
     public long expected; //Cột 1 của mảng
-    
+
     @Test
     public void testGetFactorialGivenRightArgumentReturnsWell() {
         Assert.assertEquals(expected, MathUtil.getFactorial(n));
