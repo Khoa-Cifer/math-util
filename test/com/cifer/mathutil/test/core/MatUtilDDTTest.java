@@ -27,8 +27,8 @@ public class MatUtilDDTTest {
             {1, 1},
             {2, 2},
             {3, 6},
-            {4, 24},
-            {5, 120},};
+            {5, 24},
+            {6, 120},};
     }
     @Parameterized.Parameter(value = 0)
     public int n; //Cột 0 của mảng
