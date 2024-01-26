@@ -1,2 +1,1 @@
-# math-util
-# math-util
+[![CI with GitHub Actions using Ant and JUnit | © 2022 by giao.lang](https://github.com/Khoa-Cifer/math-util/actions/workflows/ci-junit.yml/badge.svg)](https://github.com/Khoa-Cifer/math-util/actions/workflows/ci-junit.yml)
