@@ -36,7 +36,7 @@ public class MathUtilityTest {
         //so sánh nhiều case
         Assert.assertEquals(1, MathUtil.getFactorial(1));
         Assert.assertEquals(2, MathUtil.getFactorial(2));
-        Assert.assertEquals(69, MathUtil.getFactorial(4));
+        Assert.assertEquals(24, MathUtil.getFactorial(4));
         long total = 1;
         for (int i = 1; i <= 20; i++) {
             total *= i;
